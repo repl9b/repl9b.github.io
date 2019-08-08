@@ -1,0 +1,132 @@
+* {
+	box-sizing: border-box;
+}
+a {
+	outline: none;
+}
+body {
+	font-family: Poppins, sans-serif;
+}
+
+.wrap {
+	margin: 0 auto;
+	max-width: 980px;
+	padding: 5px;
+}
+.page-title {
+	clear: both;
+	display: block;
+	margin: 0;
+	padding: 0 20px 20px;
+	text-align: center;
+}
+.page-title h1 {
+	font-size: 29px;
+	font-weight: 700;
+	line-height: 32px;
+	margin-bottom: 20px;
+}
+.page-title h2 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.pt-normal h2 {
+	font-weight: 400;
+}
+h1 {
+	font-family: Verdana,sans-serif;
+	line-height: auto;
+	padding-bottom: 0;
+	text-align: center;
+}
+.back a {
+	color: rgb(36, 35, 35);
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+} 
+h2 {
+	font-family: Verdana,sans-serif;
+	text-align: center;
+}
+.prose {
+	color: #000;
+	text-align: justify;
+}
+.bold {
+	font-size: 15px;
+	font-weight: 900;
+}
+span {
+	background-color: #55efc4;
+	padding: 2.5px;
+}
+span.yellow {
+	background-color: #ffeaa7;
+	padding: 2.5px;
+}
+span.red {
+	background-color: #ff6b6b;
+	padding: 2.5px;
+}
+span.blue {
+	background-color: #48dbfb;
+	padding: 2.5px;
+ }
+span.gardenia {
+	background-color: #f97f51;
+	padding: 2.5px;
+}
+.active {
+	background-color: #2ecc71;
+}
+.grey {
+	background-color: #95a5a6;
+}
+.paginator {
+	display: flex;
+}
+.paginator-block {
+	background: #ecf0f1;
+	display: inline-block;
+	margin: 30px auto;
+	padding: 10px;
+	text-align: center;
+}
+.paginator a,.paginator span {
+	color: #fff;
+	display: inline-block;
+	font-weight: 700;
+	height: 40px;
+	line-height: 40px;
+	min-width: 20px;
+	padding: 0 15px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+}
+.paginator .prev {
+	background-image: url(https://htmlacademy.ru/assets/course14/arrows.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	margin-right: 20px;
+	text-indent: -1000px;
+}
+.paginator .next {
+	background-image: url(https://htmlacademy.ru/assets/course14/arrows.png);
+	background-position: 0 -40px;
+	background-repeat: no-repeat;
+	margin-left: 20px;
+	text-indent: -1000px;
+}
+.paginator .current {
+    background-color: #16a085;
+}
+.paginator .disabled {
+	opacity: .3;
+ }
+.paginator a:hover {
+    background-color: #2ecc71;
+}
